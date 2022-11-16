@@ -96,7 +96,7 @@ h2{
 .contenedor .cabeceraPrincipal .fondo .boton button{
 
     width: 100px;
-    height: 80px;
+    height: 50px;
     background-color: #FFC43D;
     margin: 50PX;
     border-radius: 15%;
@@ -130,7 +130,12 @@ opacity: 100%;
     
 }
 
-
+p{
+    margin: 0 auto;
+    padding: 5px;
+    width: 350px;
+    line-height:28px;
+}
 
 
 
@@ -154,22 +159,24 @@ opacity: 100%;
 }
 .contenedor .contenido .mascotas img{
 
-    width: 400px;
-    height: 400px;
-    margin: 50px;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    margin-top: 120px;
     border-radius: 45%;
     box-shadow: 0 0 10px #180000;
 }
 
 .contenedor .contenido .mascotas .texto{
-    margin-top: 90px;
+    margin-top: 120px;
        
 
 }
 
 .contenedor .contenido .mascotas .texto h3{
     color: #FFC43D;
-    font-size: 35px;
+    font-size: 25px;
+    justify-content: center;
 
        
 
@@ -298,9 +305,47 @@ opacity: 100%;
 }
 
 
+  /*  pagina adopcion */
+    
+  .contenido1 .formulario{
+    margin: 30px;
+    list-style: none;
+
+  }
+
   
+  /*input[type=text]{
+    width: 100%;
+    border:  1px solid violet;
+  }
   
+  para selecionar solo de esos tipos*/
+ input{
+    width: 100%;
+    margin: 10px;
+    border:  1px solid violet;
+    padding: 10px;
+  }
+
+
+
+  .contenido1 button{
+    background-color: white; 
+    width: 50px;
+    color: black; 
+    border: 2px solid #4CAF50;
+    margin-left: 100px;
+}
+
+.contenido1 button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
   
+
+
+
+
   
   
   /**{
